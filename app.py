@@ -1,4 +1,5 @@
 from flask import Flask, request, redirect, session, render_template_string
+import os
 import sqlite3
 from datetime import datetime
 
@@ -175,5 +176,7 @@ def bills():
     html+="</table>"
     return page(html)
 
-if __name__=="__main__":
-    app.run(debug=True)
+if __name__ == "__main__":
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
