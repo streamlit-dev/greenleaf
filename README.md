@@ -1,5 +1,7 @@
 # GreenLeaf - Grocery Store Management System
-
+Live Demo - https://greenleaf-ejuq.onrender.com
+video Demo 1 -https://youtube.com/shorts/JS9oqV3Op0E?si=pK-eBN8YhbfVQ7qS
+video Demo2 - https://youtube.com/shorts/JS9oqV3Op0E?si=pK-eBN8YhbfVQ7qS
 Technology: Python, Flask, SQLite, HTML/CSS
 
 **** How to Run **
